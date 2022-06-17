@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  letter-spacing: -0.02em;
+  background-color: black;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #1f2d3d;
+  line-height: 1.25;
+}
+
+strong {
+  font-size: 14px;
+  font-weight: 400;
+  color: #afb3b9;
+  line-height: 1.4285714286;
+}
+
+p {
+  font-size: 16px;
+  color: #79818b;
+  line-height: 1.5;
+}
+
+/* ▼ WHERE YOUR CODE BEGINS */
+
+.card {
+  background-color: white;
+  padding: 20px;
+  max-width: 540px;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.card-user {
+  float: left;
+  width: 44px;
+  border-radius: 50%;
+}
+
+.card-content {
+  float: left;
+  margin-left: 20px;
+}
+
+.card-content h1 {
+  font-size: 20px;
+}
+
+.card-content strong {
+  display: block;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.card-content p {
+  font-size: 16px;
+  margin-top: 12px;
+}
