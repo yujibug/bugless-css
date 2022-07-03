@@ -59,6 +59,10 @@ body {
   background-position: center center;
 }
 
+.card-content {
+  flex-grow: 1;
+}
+
 .card-header {
   display: flex;
   justify-content: space-between;
